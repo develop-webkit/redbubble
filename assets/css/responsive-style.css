@@ -1,0 +1,278 @@
+.visible-xs {
+	display: none !important;
+}
+
+.hidden-xs {
+	display: block !important;
+}
+
+@media (min-width: 1400px) {
+
+	.top-nav .container,
+	.nav-sec .container,
+	.under-nav .container,
+	.hero-sec .container {
+		max-width: 1600px;
+	}
+
+	.range-sec .container,
+	.category-sec .container,
+	.feature-sec .container,
+	.explore-sec .container,
+	.artist-sec .container,
+	.fan-sec .container,
+	.under-fan-sec .container,
+	.member-sec .container,
+	.pk-sec .container,
+	.footer-sec .container,
+	.under-footer-sec .container,
+	.copyright-sec .container {
+		max-width: 1200px;
+	}
+}
+
+@media(max-width: 767px) {
+	.visible-xs {
+		display: block !important;
+	}
+
+	.hidden-xs {
+		display: none !important;
+	}
+
+	br {
+		display: none;
+	}
+}
+
+@media(max-width: 1600px) {
+
+	body,
+	html {
+		font-size: 15px;
+	}
+}
+
+@media(max-width: 1400px) {
+	.top-nav-input {
+		width: 50%;
+	}
+
+	.hero-bg {
+		min-height: 27rem;
+	}
+}
+
+@media(max-width: 1200px) {
+
+	body,
+	html {
+		font-size: 14px;
+	}
+
+	.hero-content {
+		padding-left: 3rem;
+	}
+
+	.range-content {
+		padding: 0 0;
+	}
+
+	.explore-sec {
+		padding: 1rem 0 1rem;
+	}
+
+	.fan-sec {
+		padding: 1rem 0 1rem;
+	}
+
+	.under-fan-sec {
+		padding: 2rem 0 2rem;
+	}
+}
+
+@media(max-width: 992px) {
+
+	body,
+	html {
+		font-size: 13px;
+	}
+
+	.under-nav {
+		margin-top: 1rem;
+	}
+
+	.hamburger-icon {
+		display: block;
+	}
+
+	.top-nav-links a {
+		padding: 0 0.5rem;
+	}
+
+	.top-nav-input {
+		width: 40%;
+	}
+
+	.ham-logo {
+		display: flex;
+		align-items: center;
+		gap: 1rem;
+	}
+
+	.hero-bg {
+		min-height: 22rem;
+	}
+
+	.hero-content {
+		padding-left: 2rem;
+	}
+
+	.hero-content h1 {
+		font-size: 2.5rem;
+	}
+
+	.hero-content p {
+		font-size: 1.35rem;
+	}
+
+	.range-img1 img {
+		height: 20rem;
+		object-fit: cover;
+		object-position: center;
+	}
+
+	.range-sec {
+		padding: 2rem 0 1rem;
+	}
+
+	.untern-slider1x .slick-next,
+	.untern-slider1x .slick-prev {
+		display: none !important;
+	}
+
+	.feature-slider-content img {
+		height: 14rem;
+	}
+
+	.untern-slider3x .slick-next,
+	.untern-slider3x .slick-prev {
+		display: none !important;
+	}
+
+	.fan-sec .category-col a {
+		bottom: 0;
+	}
+
+	.under-fan-col {
+		padding: 1rem 0;
+	}
+}
+
+@media(max-width: 767px) {
+	.footer-sec {
+		padding: 1.5rem 0;
+	}
+
+	.under-footer-sec {
+		padding: 1rem 0;
+	}
+
+	.copyright-col p {
+		text-align: start;
+	}
+
+	.member-sec {
+		min-height: 20rem;
+	}
+
+	.stars {
+		right: 1rem;
+		bottom: 1rem;
+	}
+
+	.smiley {
+		left: 1rem;
+		top: 1rem;
+	}
+
+	.under-fan-col {
+		padding: 0.5rem 0;
+	}
+
+	.top-nav-input {
+		display: none;
+	}
+
+	.top-nav-links {
+		display: none;
+	}
+
+	.mbl-searchbar {
+		display: block;
+		margin-top: 7.5rem;
+	}
+
+	.mbl-searchbar .top-nav-input {
+		display: flex !important;
+	}
+
+	.nav-sec {
+		margin-top: 0;
+	}
+
+	.top-nav-input {
+		width: 100%;
+	}
+
+	.hero-content {
+		padding-left: 0;
+	}
+
+	.hero-bg {
+		min-height: 20rem;
+		background-position: 75% 100%;
+	}
+
+	.hero-content h1 {
+		font-size: 2rem;
+	}
+
+	.hero-content p {
+		font-size: 1.25rem;
+	}
+
+	.under-nav-col p {
+		font-size: 0.875rem;
+	}
+
+	.feature-slider-content img {
+		height: 13rem;
+	}
+
+	.category-col {
+		align-items: self-start;
+		flex-direction: column;
+		gap: 0.5rem;
+	}
+
+	.artist-inner .explore-img img {
+		height: 13rem;
+	}
+
+	.artist-inner .ex-btn {
+		margin-bottom: 1rem;
+	}
+
+	.fan-sec .category-col a {
+		display: none;
+	}
+
+	.footer-col h6 {
+		margin-bottom: 0.5rem;
+	}
+
+	.footer-sec .row {
+		gap: 1rem;
+	}
+}
